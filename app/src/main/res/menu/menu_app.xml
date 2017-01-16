@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="chat.upmc.fr.chatwithme.activities.UserActivity">
+    <item
+        android:id="@+id/chat_room"
+        android:orderInCategory="100"
+        android:title="@string/chat_room"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/edit_profil"
+        android:orderInCategory="100"
+        android:title="@string/edit_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/status"
+        android:orderInCategory="100"
+        android:title="@string/status"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+</menu>
